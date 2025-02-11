@@ -5,12 +5,6 @@ variable "location" {
   description = "Location of the resource group."
 }
 
-variable "alias" {
-  type        = string
-  default     = "bpinheiro"
-  description = "Alias"
-}
-
 ## Resource groups
 variable "rg" {
   type        = string

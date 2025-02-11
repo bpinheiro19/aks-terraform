@@ -46,12 +46,6 @@ variable "vm_size" {
   default     = "Standard_D2s_v3"
 }
 
-variable "admin_username" {
-  type        = string
-  description = "The admin username."
-  default     = "azureuser"
-}
-
 variable "workload_sa_name" {
   type        = string
   description = "Kubernetes service account to permit"
