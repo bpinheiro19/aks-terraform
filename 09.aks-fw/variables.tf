@@ -20,7 +20,7 @@ variable "vnet_name" {
 ## AKS
 variable "aks_name" {
   type        = string
-  default     = "aks-overlay"
+  default     = "aks-overlay-fw"
 }
 
 variable "node_count" {
